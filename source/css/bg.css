@@ -1,0 +1,586 @@
+body{
+	font-family: Arial, sans-serif;
+}
+nav{
+	width: 100%;
+	height: 60px;
+	background: #2a3d50;
+}
+.logo{
+	line-height: 60px;
+	font-size: 20px;
+	color: #fff;
+	padding-left: 388px;
+	float: left;
+}
+.menu{
+	float: left;
+	padding-left: 435px; 
+}
+.menu li{
+	float: left;
+	line-height: 60px;
+	color: #fff;
+	margin-right: 42px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.main{
+	width: 100%;
+	height: calc(100% - 60px);
+	background: url(../img/парень.png) 90% 100%/auto 85% no-repeat ,url(../img/фон.png) center/cover no-repeat;
+}
+.title_container{
+	float: left;
+	margin: 432px 0px 0px 404px;
+	color: #213549;
+	text-align: center;
+}
+.title_container h1{ 	
+	font-size: 60px;
+	font-weight: bold;
+}
+.title_container h4{
+	margin-top: 40px;
+	font-size: 22px;
+	color: #213549;
+}
+.title_container input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid #697784;
+	background: none;
+	border-radius: 5px;
+	color: #697784;
+	font-size: 13px;
+	padding: 0px 16px;
+	margin: 50px 14px 0px 14px;
+}
+.about_me{
+	float: left;
+	margin: 350px 0px 0px 600px;
+	text-align: center;
+}
+.about_me h2{
+	height: 340px;
+	font-size: 24px;
+	color: #1a2f43;
+	font-weight: bold;
+	background: url(../img/чел.png) 50% 50%/auto no-repeat, url(../img/line.png) 50% 10%/auto no-repeat;
+}
+.about_me h6{
+	margin-top: 1px;
+	font-size: 12px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	color: #6e7884;
+	text-align: left;
+}
+.about_me input{
+	height: 38px;
+	text-align: left;
+	border: 3px solid #6e7884;
+	border-radius: 5px;
+	color: #6e7884;
+	font-size: 13px;
+	padding: 0px 20px;
+	margin-top: 40px;
+	font-weight: bold;
+	background: url(../img/иконка.png) 2% 50%/auto no-repeat;
+}
+.what_i_can{
+	float: left;
+	margin-top: 50px;
+	width: 100%;
+	background: url(../img/fone.png) 100% 100%/auto no-repeat;
+}
+.what_i_can h2{
+	text-align: center;
+	margin-top: 105px;
+	font-size: 23px;
+	font-weight: bold;
+	height: 50px;
+	background: url(../img/line3.png) 50% 100%/auto no-repeat;
+}
+.abilities{
+	float: left;
+	padding-left: 477px;
+	height: 400px;
+}
+.web-desain{
+	float: left;
+	padding-top: 109px;
+	height: 160px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	background: url(../img/ноут.png) 50% 50%/auto no-repeat;
+}
+.web-desain li{
+	color: #e97700;
+}
+.web-desain h6{
+	padding-top: 18px;
+	font-size: 11px;
+	font-weight: 300;
+}
+.earnings{
+	float: left;
+	padding-top: 109px;
+	height: 160px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 80px;
+	background: url(../img/знак.png) 70% 50%/auto no-repeat;
+}
+.earnings li{
+	color: #e97700;
+}
+.earnings h6{
+	padding-top: 18px;
+	font-size: 11px;
+	font-weight: 300;
+}
+.seo-optimization{
+	float: left;
+	padding-top: 109px;
+	height: 160px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 80px;
+	background: url(../img/ракета.png) 70% 50%/auto no-repeat;
+}
+.seo-optimization li{
+	color: #e97700;
+}
+.seo-optimization h6{
+	padding-top: 18px;
+	font-size: 11px;
+	font-weight: 300;
+}
+.marketing{
+	float: left;
+	padding-top: 109px;
+	height: 160px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 80px;
+	background: url(../img/граммофон.png) 70% 50%/auto no-repeat;
+}
+.marketing li{
+	color: #e97700;
+}
+.marketing h6{
+	padding-top: 18px;
+	font-size: 11px;
+	font-weight: 300;
+}
+.cases{
+	float: left;
+	padding-top: 144px;
+}
+.case h2{
+	float: left;
+	height: 40px;
+	padding-left: 913px;
+	font-size: 28px;
+	font-weight: bold;
+	color: #2f4154;
+	background: url(../img/line.png) 98% 100%/auto no-repeat;
+}
+.case h6{
+	float: left;
+	padding-left: 620px;
+	padding-top: 37px;
+	font-size: 11px;
+	text-align: center;
+	font-weight: bold;
+	color: #38485b;
+}
+.cases img{
+	padding-top: 40px;
+}
+.data{
+	padding-left: 388px;
+}	
+.client{
+	float: left;
+}
+.client li{
+	font-size: 18px;
+	color: #2f4154;
+}
+.client h6{
+	font-size: 12px;
+	padding-top: 10px;
+	color: #37475a;
+	padding-bottom: 15px;
+}
+.name_proekt{
+	padding-left: 216px;
+	float: left;
+
+}
+.name_proekt li{
+	font-size: 18px;
+	color: #2f4154;
+}
+.name_proekt h5{
+	font-size: 12px;
+	padding-top: 18px;
+	color: #37475a;
+}
+.putton{
+	padding-left: 377px;
+}
+.putton input{
+	float: left;
+	height: 46px;
+	text-align: center;
+	border: 2px solid #00b6af;
+	background: #00b6af;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 14px;
+	padding: 0px 16px;
+	margin: 50px 14px 0px 14px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.costs{
+	padding-top: 202px;
+	float: left;
+	width: 100%;
+}
+.costs h3{
+	padding: 1px 0px 0px 800px;
+	font-size: 30px;
+	float: left;
+	font-weight: bold;
+}
+.type_site{
+	float: left; 
+	padding-top: 60px;
+	padding-left: 568px;
+}
+.type_site li{
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 25px; 
+}
+.type_site select{
+	height: 30px;
+	width: 893px;
+	color: #747474;
+	background: #efefef;
+}
+.disainer{
+	float: left; 
+	padding-top: 60px;
+	padding-left: 565px;
+}
+.disainer li{
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 25px; 
+}
+.disainer select{
+	height: 30px;
+	width: 893px;
+	color: #747474;
+	background: #efefef;
+}
+.adaption{
+	float: left; 
+	padding-top: 60px;
+	padding-left: 565px;
+}
+.adaption li{
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 25px;
+}
+.adaption select{
+	height: 30px;
+	width: 893px;
+	color: #747474;
+	background: #efefef
+}
+.str h4{
+	background: url(../img/итог.png) 58% 50%/auto no-repeat;
+	height: 25px;
+	width: 100%;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 25px;
+	padding-left: 565px;
+}
+.str h5{
+	float: right;
+	font-size: 18px;
+	padding-right: 410px;
+	font-weight: bold;
+}
+.cost h4{
+	height: 50px;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 35px;
+	padding-left: 565px;
+}
+.cost h5{
+	float: right;
+	font-size: 18px;
+	padding-top: 40px;
+	font-weight: bold;
+}
+.statistic{
+	float: left;
+	margin-top: 50px;
+	width: 100%;
+	background: url(../img/фон1.png) 100% 100%/auto no-repeat;
+}
+.statistic h3{
+	text-align: center;
+	margin-top: 105px;
+	font-size: 23px;
+	font-weight: bold;
+	height: 50px;
+	background: url(../img/line3.png) 50% 100%/auto no-repeat;
+}
+.stat{
+	float: left;
+	padding-left: 400px;
+	height: 400px;
+}
+.clients{
+	float: left;
+	padding-top: 190px;
+	height: 160px;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	background: url(../img/смайл.png) 50% 90%/auto no-repeat;
+}
+.clients li{
+	color: #283c4f;
+}
+.clients h6{
+	padding-top: 18px;
+	font-size: 11px;
+	font-weight: 300;
+}
+.hour{
+	float: left;
+	padding-top: 190px;
+	height: 160px;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 200px;
+	background: url(../img/скобки.png) 92% 90%/auto no-repeat;
+}
+.hour li{
+	color: #283c4f;
+}
+.hour h6{
+	padding-top: 18px;
+	font-size: 11px;
+	font-weight: 300;
+}
+.proekt{
+	float: left;
+	padding-top: 190px;
+	height: 160px;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 200px;
+	background: url(../img/галочка.png) 87% 90%/auto no-repeat;
+}
+.proekt li{
+	color: #283c4f;
+}
+.proekt h6{
+	padding-top: 18px;
+	font-size: 11px;
+	font-weight: 300;
+}
+.ach{
+	float: left;
+	padding-top: 190px;
+	height: 160px;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 200px;
+	background: url(../img/кубок.png) 88% 90%/auto no-repeat;
+}
+.ach li{
+	color: #283c4f;
+}
+.ach h6{
+	padding-top: 18px;
+	font-size: 11px;
+	font-weight: 300;
+}
+.responses{
+	float: left;
+	margin: 50px 0px 0px 600px;
+	text-align: center;
+}
+.responses h3{
+	height: 250px;
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #1a2f43;
+	font-weight: bold;
+	background: url(../img/фотка1.png) 50% 50%/auto no-repeat, url(../img/line.png) 50% 10%/auto no-repeat;
+}
+.responses h6{
+	margin-top: 1px;
+	font-size: 12px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	color: #6e7884;
+	text-align: center;
+}
+.responses b{
+	color: #182d41;
+}
+.contacts{
+	float: left;
+	margin-top: 50px;
+	width: 100%;
+	height: 808px;
+	background: url(../img/line.png) 50% 18%/auto no-repeat, url(../img/fone2.png) 100% 100%/auto no-repeat;
+}
+.contacts h2{
+	text-align: center;
+	color: #fff;
+	margin-top: 105px;
+	font-size: 23px;
+	font-weight: bold;
+	height: 50px;
+}
+.contacts h6{
+	margin-top: 70px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+.connection{
+	float: left;
+	padding-left: 667px;
+	padding-top: 48px;
+}
+.address{
+	float: left;
+	padding-top: 30px;
+	height: 50px;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	background: url(../img/гео.png) 50% 90%/auto no-repeat;
+}
+.address li{
+	color: #fff;
+	font-weight: bold;
+	padding-top: 28px;
+	font-size: 11px;
+	font-weight: 300;
+}
+.information{
+	float: left;
+	padding-top: 30px;
+	height: 50px;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 100px;
+	background: url(../img/конверт.png) 79% 90%/auto no-repeat;
+}
+.information li{
+	color: #fff;
+	font-weight: bold;
+	padding-top: 28px;
+	font-size: 11px;
+	font-weight: 300;
+}
+.namber{
+	float: left;
+	padding-top: 30px;
+	height: 50px;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 100px;
+	background: url(../img/труба.png) 86% 90%/auto no-repeat;
+}
+.namber li{
+	color: #fff;
+	font-weight: bold;
+	padding-top: 28px;
+	font-size: 11px;
+	font-weight: 300;
+}
+.mesege h4{
+	float: left;
+	padding-top: 70px;
+	padding-left: 840px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #f1f1f1;
+}
+.two{
+	padding-top: 35px;
+	height: 66px;
+	float: left;
+	padding-left: 582px;
+}
+.two textarea{
+	height: 35px;
+	width: 355px;
+	padding: 12px 5px 0px 0px;
+	font-size: 12px;
+	text-align: left;
+}
+.one{
+	padding-top: 30px;
+	height: 66px;
+	float: left;
+	padding-left: 582px;
+}
+.one textarea{
+	height: 95px;
+	width: 715px;
+	font-size: 12px;
+	padding-top: 5px; 
+	padding-left: 5px;
+	text-align: left;
+}
+.button1{
+	padding-top: 25px;
+	float: left;
+	padding-left: 898px;
+}
+.button1 input{
+	float: left;
+	height: 46px;
+	text-align: center;
+	border: 2px solid #fff;
+	background: none;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 12px;
+	padding: 0px 16px;
+	margin: 50px 14px 0px 14px;
+	text-transform: uppercase;
+	text-align: center;
+}
